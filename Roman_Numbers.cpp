@@ -1,3 +1,14 @@
+/*********************
+Written by KH 9/29/17
+
+The program takes two Roman numerals in one line separated by a space, and returns the difference of value in Roman numeral.
+Enter # to quit the program.
+Ex. input
+"MM II"
+Ex. output
+"MCMXCVIII"
+**********************/
+
 #include <iostream>
 #include <string>
 using namespace std;
