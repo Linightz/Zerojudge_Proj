@@ -1,3 +1,9 @@
+'''
+Written by KH 3/19/19
+
+The program takes one integer as input and outputs all of its factors.
+'''
+
 import sys
 for input in map(int,sys.stdin):
     counter=1
