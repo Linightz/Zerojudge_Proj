@@ -1,3 +1,14 @@
+'''
+Written by KH 3/20/19
+
+The program takes two Roman numerals in one line separated by a space, and returns the difference of value in Roman numeral.
+Enter # to quit the program.
+Ex. input
+"MM II"
+Ex. output
+"MCMXCVIII"
+'''
+
 def toNum(r,n):
     total,pre=0,1000
     for i in n:
