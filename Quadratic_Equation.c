@@ -1,3 +1,9 @@
+/*********************
+Written by KH 2/25/16
+
+Given ax^2 * bx * c = 0, the program takes 3 int inputs as a, b, c, separated by spaces, and output its root.
+*********************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
