@@ -1,3 +1,9 @@
+'''
+Written by KH 3/19/19
+
+Given ax^2 * bx * c = 0, the program takes 3 int inputs as a, b, c, separated by spaces, and output its root.
+'''
+
 import sys
 import math
 for input in sys.stdin:
