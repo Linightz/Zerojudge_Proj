@@ -1,3 +1,9 @@
+\*********************
+Written by KH 3/11/19
+
+The program takes one integer as input and outputs all of its factors.
+**********************\
+
 #include<iostream>
 using namespace std;
 int main()
