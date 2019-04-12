@@ -1,25 +1,23 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
 int main()
 {
-	int K;
-	char LastChar, code[100];
-
-	while(scanf("%s",code)!=EOF)
+	int Num[3],NUMBER,ANSER;
+	int x=0,x1=0,x2=0,x3=0;
+	while(scanf("%d %d %d",&Num[0],&Num[1],&Num[2])!=EOF)
 	{
-		char *ptr = code;
-		while(*ptr!='\0')
+		ANSER=sqrt(NUMBER=pow(Num[1],2)-4*Num[0]*Num[2]);
+		if(ANSER>0)
 		{
-			LastChar = *ptr;
-			ptr++;
+			x1=(-Num[1]+ANSER)/(2*Num[0]);
+			x2=(-Num[1]-ANSER)/(2*Num[0]);
+			printf("Two different roots x1=%d , x2=%d\n",x1,x2);
 		}
-		K = LastChar - 46;
-		for(int i = 0; i<sizeof code; i++)
-		{
-			if(code[i]=='\0')
-				break;
-			printf("%c",code[i]-K);
-		}
-		printf("\n");
+		else if(ANSER==0)
+			printf("Two same roots x=%d\n",x3=-Num[1]/(2*Num[0]));
+		else
+			printf("No real root\n");
 	}
 	return 0;
 }
